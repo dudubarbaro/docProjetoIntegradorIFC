@@ -32,12 +32,12 @@ Para isso o sistema terá seu foco no gerenciamento de veículos e clientes. O s
 
 # Regras de Ngócio
 
-**RN01 - Cadastro de veículos:** Para iniciar uma venda, é de suma importância ter um veículo cadastrado.
-**RN02 - Adicionar uma venda:**  Para adicionar um veículo a uma venda, é preciso que o veículo esteja cadastrado no sistema e que seu preço seja acima de zero.
-**RN03 - Cadastro de usuários:** Os usuários precisam realizar o cadastro para fazer a compra.
-**RN04 - Efetuar compra:** Para realizar a compra, apenas com usuários cadastrados e nenhuma outra compra em aberto.
-**RN05 - Registro de compra:** O Administrador deve possuir acesso aos gerenciamentos de compras
-**RN06 - Desfazer compra em aberto:** O usuário que possuir compras em aberto deverá desfazer sua pendência.
-**RN07 – Impressão da venda:** Com as informações da venda registrada, o adminstrador deve imprimir a venda e enviar ao usuário para aprovação, e caso o usuário aprovar, o administrador deve solicitar a sua assinatura online para aprovar a execução do serviço.
-**RN08 – Abertura de OS:** Com a venda aprovada pelo usuário, o administrador deverá receber os dados do usuário e da venda em um novo formulário, para o gerenciamento interno, realizando a abertura da venda.
+**RN01 - Cadastro de veículos:** Para iniciar uma venda, é de suma importância ter um veículo cadastrado. <br />
+**RN02 - Adicionar uma venda:**  Para adicionar um veículo a uma venda, é preciso que o veículo esteja cadastrado no sistema e que seu preço seja acima de zero.<br />
+**RN03 - Cadastro de usuários:** Os usuários precisam realizar o cadastro para fazer a compra.<br />
+**RN04 - Efetuar compra:** Para realizar a compra, apenas com usuários cadastrados e nenhuma outra compra em aberto.<br />
+**RN05 - Registro de compra:** O Administrador deve possuir acesso aos gerenciamentos de compras<br />
+**RN06 - Desfazer compra em aberto:** O usuário que possuir compras em aberto deverá desfazer sua pendência.<br />
+**RN07 – Impressão da venda:** Com as informações da venda registrada, o adminstrador deve imprimir a venda e enviar ao usuário para aprovação, e caso o usuário aprovar, o administrador deve solicitar a sua assinatura online para aprovar a execução do serviço.<br />
+**RN08 – Abertura de OS:** Com a venda aprovada pelo usuário, o administrador deverá receber os dados do usuário e da venda em um novo formulário, para o gerenciamento interno, realizando a abertura da venda.<br />
 **RN09 – Gerenciamento de fluxo de vendas:** O gerenciamento de fluxo de venda será permitido somente para o administrador.
