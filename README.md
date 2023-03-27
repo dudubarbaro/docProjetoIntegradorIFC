@@ -10,7 +10,7 @@ Links do projeto:
 -   [Backend]()
 -   [Frontend]()
 
-## Ponto de Vendas (PDV)
+# Ponto de Vendas (PDV)
 
 Gerenciamento de vendas para uma loja de veículos
 
@@ -29,3 +29,15 @@ Gerenciamento de vendas para uma loja de veículos
 
 O desenvolvimento do predicado software advém da necessidade da situação-problema que se caracteriza com a relação ao gerenciamento dos veículos no estoque/pátio, controle de entrada e saída dos automóveis, controle de clientes e divulgações para vendas em redes sociais, por serem muito fechadas ao seu público alvo nativo.
 Para isso o sistema terá seu foco no gerenciamento de veículos e clientes. O sistema permitirá a adição e a remoção de veículos, a visualização e controle do estoque, relatório de entrada e saída de veículos e registro da venda ao cliente. Dois níveis de usuário: Admin e Cliente. O Admin terá acesso as telas de gerenciamento, controle, relatório e registro de venda. O usuário Cliente terá acesso a tela de visualização dos veículos disponíveis para compra e tela de finalização de compra.
+
+# Regras de Ngócio
+
+**RN01 - Cadastro de veículos:** Para iniciar uma venda, é de suma importância ter um veículo cadastrado.
+**RN02 - Adicionar uma venda:**  Para adicionar um veículo a uma venda, é preciso que o veículo esteja cadastrado no sistema e que seu preço seja acima de zero.
+**RN03 - Cadastro de usuários:** Os usuários precisam realizar o cadastro para fazer a compra.
+**RN04 - Efetuar compra:** Para realizar a compra, apenas com usuários cadastrados e nenhuma outra compra em aberto.
+**RN05 - Registro de compra:** O Administrador deve possuir acesso aos gerenciamentos de compras
+**RN06 - Desfazer compra em aberto:** O usuário que possuir compras em aberto deverá desfazer sua pendência.
+**RN07 – Impressão da venda:** Com as informações da venda registrada, o adminstrador deve imprimir a venda e enviar ao usuário para aprovação, e caso o usuário aprovar, o administrador deve solicitar a sua assinatura online para aprovar a execução do serviço.
+**RN08 – Abertura de OS:** Com a venda aprovada pelo usuário, o administrador deverá receber os dados do usuário e da venda em um novo formulário, para o gerenciamento interno, realizando a abertura da venda.
+**RN09 – Gerenciamento de fluxo de vendas:** O gerenciamento de fluxo de venda será permitido somente para o administrador.
