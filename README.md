@@ -30,7 +30,7 @@ Gerenciamento de vendas para uma loja de veículos
 O desenvolvimento do predicado software advém da necessidade da situação-problema que se caracteriza com a relação ao gerenciamento dos veículos no estoque/pátio, controle de entrada e saída dos automóveis, controle de clientes e divulgações para vendas em redes sociais, por serem muito fechadas ao seu público alvo nativo.
 Para isso o sistema terá seu foco no gerenciamento de veículos e clientes. O sistema permitirá a adição e a remoção de veículos, a visualização e controle do estoque, relatório de entrada e saída de veículos e registro da venda ao cliente. Dois níveis de usuário: Admin e Cliente. O Admin terá acesso as telas de gerenciamento, controle, relatório e registro de venda. O usuário Cliente terá acesso a tela de visualização dos veículos disponíveis para compra e tela de finalização de compra.
 
-# Regras de Ngócio
+# Regras de Negócio
 
 **RN01 - Cadastro de veículos:** Para iniciar uma venda, é de suma importância ter um veículo cadastrado. <br />
 **RN02 - Adicionar uma venda:**  Para adicionar um veículo a uma venda, é preciso que o veículo esteja cadastrado no sistema e que seu preço seja acima de zero.<br />
