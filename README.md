@@ -41,3 +41,23 @@ Para isso o sistema terá seu foco no gerenciamento de veículos e clientes. O s
 **RN07 – Impressão da vaga:** Com as informações da vaga registrada, o adminstrador deve enviar ao usuário para aprovação, e caso o usuário aprovar, o administrador deve solicitar a sua assinatura online para aprovar a execução do serviço.<br />
 **RN08 – Abertura de OS:** Com a reserva aprovada pelo usuário, o administrador deverá receber os dados do usuário e da venda em um novo formulário, para o gerenciamento interno, realizando a abertura da vaga.<br />
 **RN09 – Gerenciamento de fluxo de vagas e veículos:** O gerenciamento de fluxo de veículos  será permitido somente para o administrador.
+
+# Requisitos Funcionais
+
+**RF01 - Registro de veículos:** O sistema deve permitir o registro de informações sobre os veículos que entram no estacionamento, como placa, modelo, cor e hora de entrada.<br />
+**RF02 - Controle de acesso:** O sistema deve ser capaz de controlar o acesso de veículos ao estacionamento, permitindo a entrada apenas de veículos autorizados e registrando informações sobre a hora de entrada.<br />
+**RF03 - Alocação de vagas:** O sistema deve atribuir vagas disponíveis aos veículos que entram no estacionamento, garantindo uma alocação eficiente e evitando o uso indevido de vagas.<br />
+**RF04 - Cobrança de tarifas:** O sistema deve calcular e registrar as tarifas de estacionamento com base na duração da estadia do veículo.<br />
+**RF05 - Pagamento:** O sistema deve fornecer opções de pagamento para os clientes, como dinheiro, cartão de crédito ou aplicativos de pagamento móvel. Além disso, deve gerar recibos ou comprovantes para as transações efetuadas.<br />
+**RF06 - Gerenciamento de vagas:** O sistema deve permitir o monitoramento e o gerenciamento das vagas disponíveis, informando quais estão ocupadas e quais estão livres, facilitando a localização de vagas para os motoristas.<br />
+**RF07 - Relatórios e estatísticas:** O sistema deve ser capaz de gerar relatórios e estatísticas sobre a ocupação do estacionamento, a receita gerada, entre outros dados relevantes para a gestão do estacionamento.
+
+# Requisitos Não Funcionais
+
+**RNF01 - Confiabilidade:** O sistema deve ser confiável, garantindo a disponibilidade e a integridade dos dados registrados, além de operar sem falhas frequentes.<br />
+**RNF02 - Desempenho:** O sistema deve ser capaz de lidar com um grande número de veículos, processando as transações de entrada, saída e pagamento de forma rápida e eficiente.<br />
+**RNF03 -Segurança:** O sistema deve garantir a segurança das informações dos clientes, como dados pessoais e informações de pagamento, utilizando técnicas adequadas de criptografia e controle de acesso.<br />
+**RNF04 -Usabilidade:** O sistema deve ser fácil de usar e intuitivo, tanto para os funcionários responsáveis pela operação do estacionamento quanto para os clientes que utilizam o serviço.<br />
+**RNF05 - Escalabilidade:** O sistema deve ser capaz de lidar com um aumento na demanda sem comprometer o desempenho, permitindo a expansão do estacionamento sem grandes dificuldades.<br />
+**RNF06 - Integração:** O sistema deve ser capaz de se integrar com outros sistemas, como sistemas de controle de acesso, sistemas de pagamento e sistemas de gestão financeira.<br />
+**RNF07 - Manutenibilidade:** O sistema deve ser facilmente mantido e atualizado, permitindo a correção de falhas, a incorporação de novas funcionalidades e a aplicação de melhorias quando necessário.
