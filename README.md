@@ -7,8 +7,8 @@ Estudantes: [Eduardo Barbaro](github.com/dudubarbaro) e [Brunno Duarte da Cunha]
 Links do projeto:
 
 -   [Documentação](github.com/dudubarbaro/pi-modelo)
--   [Backend]()
--   [Frontend]()
+-   [Backend](github.com/ParkItU/backendParkItU)
+-   [Frontend](github.com/ParkItU/ParkItUWeb)
 
 # Empréstimo
 
