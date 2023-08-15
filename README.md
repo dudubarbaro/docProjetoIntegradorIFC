@@ -63,3 +63,7 @@ Para isso o sistema terá seu foco no gerenciamento de veículos. O sistema perm
 **RNF05 - Escalabilidade:** O sistema deve ser capaz de lidar com um aumento na demanda sem comprometer o desempenho, permitindo a expansão do estacionamento sem grandes dificuldades.<br />
 **RNF06 - Integração:** O sistema deve ser capaz de se integrar com outros sistemas, como sistemas de controle de acesso, sistemas de pagamento e sistemas de gestão financeira.<br />
 **RNF07 - Manutenibilidade:** O sistema deve ser facilmente mantido e atualizado, permitindo a correção de falhas, a incorporação de novas funcionalidades e a aplicação de melhorias quando necessário.
+
+# Diagrama de Caso de Uso
+
+![Diagrama de Caso de Uso](img/dcu1.png "Diagrama de Caso de Uso")
