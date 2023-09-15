@@ -67,3 +67,7 @@ Para isso o sistema terá seu foco no gerenciamento de veículos. O sistema perm
 # Diagrama de Caso de Uso
 
 ![Diagrama de Caso de Uso](img/dcu1.png "Diagrama de Caso de Uso")
+
+# MER
+
+![MER](img/parkitu.png "MER")
